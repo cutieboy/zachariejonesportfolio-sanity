@@ -9,6 +9,24 @@ export default {
         type: 'string',
       },
       {
+        name: 'link',
+        title: 'Link',
+        description: 'Link to the live website',
+        type: 'string',
+      },
+      {
+        name: 'repo',
+        title: 'Repo',
+        description: 'Link to the code repository',
+        type: 'string',
+      },
+      {
+        name: 'order',
+        title: 'Order',
+        description: 'Order in which project appears',
+        type: 'string',
+      },
+      {
         name: 'badges',
         title: 'Badges',
         description: 'Badge codes are <add badge codes>',
